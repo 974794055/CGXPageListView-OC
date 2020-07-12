@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04088D183474424A73DD2D5CAE1AC829 /* Pods-CGXPageListView-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9772F1D06F3D2839271B98CDDF3CE /* Pods-CGXPageListView-OC-dummy.m */; };
+		05C2DE76484F4EF49CFE7F5708FE2B98 /* CGXPagerListRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A10160E43C288612DB604C1C2CFCAE /* CGXPagerListRefreshView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09C2C2FEE32B856CA0913639AF740E9C /* CGXPagerListMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D7A1611916668738140F73E1670B6A /* CGXPagerListMainTableView.m */; };
+		167829A5CFBE25D168828B7A8A754CD2 /* CGXPagerListRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53DB9E2A6CBCCAB68DC119527A2AF5E /* CGXPagerListRefreshView.m */; };
+		1701F8FD332123513F2E545CB302E7DE /* CGXPageListView-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E7DCED59C7779A22D575D25DD43EE3 /* CGXPageListView-OC-dummy.m */; };
+		44CF101B3238C7250F326150515F46FE /* CGXPagerListContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 572F7202BC8417F1D5935D310BB52C64 /* CGXPagerListContainerView.m */; };
+		4EA25B20818CFDC8C8AD646223D72CAE /* CGXPagerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E49BA0A82EAE3E86EE8A3E49272EA9C2 /* CGXPagerListView.m */; };
+		70B08494D0B1D1C1B3E8016AB67820D0 /* CGXPagerListContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FCF47519F59FB1CDE8F9413DBE0B1A /* CGXPagerListContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA0190C53A55C472BA6653F49B295DC8 /* CGXPagerListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F1980D899ABD62E8FDA5BC2CC1BECE /* CGXPagerListView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2B8544955433754B18E8F7523A5E8B6 /* CGXPagerListMainTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 091B0A3786CCBE6DE1EDB95377C0FE48 /* CGXPagerListMainTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		618499DBB76B91495BDE94F4FF451D54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E4529D2F94610A67DE3B02737D41E3;
+			remoteInfo = "CGXPageListView-OC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031D40005D647A5A51DDD1D8566A0AFA /* CGXPageListView-OC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "CGXPageListView-OC.podspec"; sourceTree = "<group>"; tabWidth = 2; };
+		0393C72950D854DA19061B5A485BADB3 /* Pods-CGXPageListView-OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGXPageListView-OC-acknowledgements.plist"; sourceTree = "<group>"; };
+		03F1980D899ABD62E8FDA5BC2CC1BECE /* CGXPagerListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPagerListView.h; path = CGXPageListView/CGXPagerListView.h; sourceTree = "<group>"; };
+		06D7A1611916668738140F73E1670B6A /* CGXPagerListMainTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPagerListMainTableView.m; path = CGXPageListView/CGXPagerListMainTableView.m; sourceTree = "<group>"; };
+		091B0A3786CCBE6DE1EDB95377C0FE48 /* CGXPagerListMainTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPagerListMainTableView.h; path = CGXPageListView/CGXPagerListMainTableView.h; sourceTree = "<group>"; };
+		0EB058715681E716CF6786325B1971CC /* Pods-CGXPageListView-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXPageListView-OC.release.xcconfig"; sourceTree = "<group>"; };
+		25FD99186940799E5A360358A82625B3 /* Pods-CGXPageListView-OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGXPageListView-OC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		302EE4BBCF51B81455FECEA6F2FB4890 /* libPods-CGXPageListView-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGXPageListView-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC9772F1D06F3D2839271B98CDDF3CE /* Pods-CGXPageListView-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGXPageListView-OC-dummy.m"; sourceTree = "<group>"; };
+		5395E1094F0DBEC7D86013E08E300933 /* Pods-CGXPageListView-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXPageListView-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		572F7202BC8417F1D5935D310BB52C64 /* CGXPagerListContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPagerListContainerView.m; path = CGXPageListView/CGXPagerListContainerView.m; sourceTree = "<group>"; };
+		59E7DCED59C7779A22D575D25DD43EE3 /* CGXPageListView-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGXPageListView-OC-dummy.m"; sourceTree = "<group>"; };
+		6718203D445CB7F293E27D76EC0D420A /* CGXPageListView-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CGXPageListView-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6AB467B347AB2EA369A4240AE363FF /* CGXPageListView-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CGXPageListView-OC.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1EA0374D92414F0FFE8E0472B9268ED /* libCGXPageListView-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCGXPageListView-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53DB9E2A6CBCCAB68DC119527A2AF5E /* CGXPagerListRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPagerListRefreshView.m; path = CGXPageListView/CGXPagerListRefreshView.m; sourceTree = "<group>"; };
+		A8FCF47519F59FB1CDE8F9413DBE0B1A /* CGXPagerListContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPagerListContainerView.h; path = CGXPageListView/CGXPagerListContainerView.h; sourceTree = "<group>"; };
+		B9A10160E43C288612DB604C1C2CFCAE /* CGXPagerListRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXPagerListRefreshView.h; path = CGXPageListView/CGXPagerListRefreshView.h; sourceTree = "<group>"; };
+		BF7DE84966FA13D08CFF5589D76E475C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C82705B4517687540B86C14550830F6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E49BA0A82EAE3E86EE8A3E49272EA9C2 /* CGXPagerListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXPagerListView.m; path = CGXPageListView/CGXPagerListView.m; sourceTree = "<group>"; };
+		FD577D55F1AF1FF9098F5300CEEDED81 /* CGXPageListView-OC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGXPageListView-OC-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38A951374591BA5E93BEDB6F44570292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA830E9EADF93012DF7A47859832F220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4367F8BF292A569C3B8D5F8D66C37A0F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				031D40005D647A5A51DDD1D8566A0AFA /* CGXPageListView-OC.podspec */,
+				BF7DE84966FA13D08CFF5589D76E475C /* LICENSE */,
+				C82705B4517687540B86C14550830F6C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5D763F0B0305D661A888AC39BDB820C3 /* Pods-CGXPageListView-OC */ = {
+			isa = PBXGroup;
+			children = (
+				25FD99186940799E5A360358A82625B3 /* Pods-CGXPageListView-OC-acknowledgements.markdown */,
+				0393C72950D854DA19061B5A485BADB3 /* Pods-CGXPageListView-OC-acknowledgements.plist */,
+				4FC9772F1D06F3D2839271B98CDDF3CE /* Pods-CGXPageListView-OC-dummy.m */,
+				5395E1094F0DBEC7D86013E08E300933 /* Pods-CGXPageListView-OC.debug.xcconfig */,
+				0EB058715681E716CF6786325B1971CC /* Pods-CGXPageListView-OC.release.xcconfig */,
+			);
+			name = "Pods-CGXPageListView-OC";
+			path = "Target Support Files/Pods-CGXPageListView-OC";
+			sourceTree = "<group>";
+		};
+		7CD3648288B8461902155043822A8F66 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D763F0B0305D661A888AC39BDB820C3 /* Pods-CGXPageListView-OC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		90E8A89B786E8F3D305344CB10F58ED7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59E7DCED59C7779A22D575D25DD43EE3 /* CGXPageListView-OC-dummy.m */,
+				FD577D55F1AF1FF9098F5300CEEDED81 /* CGXPageListView-OC-prefix.pch */,
+				6718203D445CB7F293E27D76EC0D420A /* CGXPageListView-OC.debug.xcconfig */,
+				7A6AB467B347AB2EA369A4240AE363FF /* CGXPageListView-OC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "CGXPageListView-OC/Pods/Target Support Files/CGXPageListView-OC";
+			sourceTree = "<group>";
+		};
+		B865D344C7230B5143B3A66F4A0B0386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1EA0374D92414F0FFE8E0472B9268ED /* libCGXPageListView-OC.a */,
+				302EE4BBCF51B81455FECEA6F2FB4890 /* libPods-CGXPageListView-OC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E58A8C11E06180278E926FC7E859A1 /* CGXPageListView-OC */ = {
+			isa = PBXGroup;
+			children = (
+				A8FCF47519F59FB1CDE8F9413DBE0B1A /* CGXPagerListContainerView.h */,
+				572F7202BC8417F1D5935D310BB52C64 /* CGXPagerListContainerView.m */,
+				091B0A3786CCBE6DE1EDB95377C0FE48 /* CGXPagerListMainTableView.h */,
+				06D7A1611916668738140F73E1670B6A /* CGXPagerListMainTableView.m */,
+				B9A10160E43C288612DB604C1C2CFCAE /* CGXPagerListRefreshView.h */,
+				A53DB9E2A6CBCCAB68DC119527A2AF5E /* CGXPagerListRefreshView.m */,
+				03F1980D899ABD62E8FDA5BC2CC1BECE /* CGXPagerListView.h */,
+				E49BA0A82EAE3E86EE8A3E49272EA9C2 /* CGXPagerListView.m */,
+				4367F8BF292A569C3B8D5F8D66C37A0F /* Pod */,
+				90E8A89B786E8F3D305344CB10F58ED7 /* Support Files */,
+			);
+			name = "CGXPageListView-OC";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0257FB74966DD6DF7A2641FEEEDC41D /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B865D344C7230B5143B3A66F4A0B0386 /* Products */,
+				7CD3648288B8461902155043822A8F66 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0257FB74966DD6DF7A2641FEEEDC41D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9E58A8C11E06180278E926FC7E859A1 /* CGXPageListView-OC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A847BEA388536A713A2E7332C91DE4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AF93B47933F43174DB855F3D6AF6D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B08494D0B1D1C1B3E8016AB67820D0 /* CGXPagerListContainerView.h in Headers */,
+				F2B8544955433754B18E8F7523A5E8B6 /* CGXPagerListMainTableView.h in Headers */,
+				05C2DE76484F4EF49CFE7F5708FE2B98 /* CGXPagerListRefreshView.h in Headers */,
+				DA0190C53A55C472BA6653F49B295DC8 /* CGXPagerListView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19E4529D2F94610A67DE3B02737D41E3 /* CGXPageListView-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9104EF6AA2BFF61AFAB393B5809AE699 /* Build configuration list for PBXNativeTarget "CGXPageListView-OC" */;
+			buildPhases = (
+				B8AF93B47933F43174DB855F3D6AF6D2 /* Headers */,
+				A028AB23416ADCD2043AF87BB942B263 /* Sources */,
+				AA830E9EADF93012DF7A47859832F220 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CGXPageListView-OC";
+			productName = "CGXPageListView-OC";
+			productReference = A1EA0374D92414F0FFE8E0472B9268ED /* libCGXPageListView-OC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8BBD0B8536294D9A39F3278896113048 /* Pods-CGXPageListView-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0C63A55A3ABB3FB72CB213240A9E42 /* Build configuration list for PBXNativeTarget "Pods-CGXPageListView-OC" */;
+			buildPhases = (
+				4A847BEA388536A713A2E7332C91DE4C /* Headers */,
+				4988D375FB46A12EB933D0629BAA3283 /* Sources */,
+				38A951374591BA5E93BEDB6F44570292 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC67A38F0DB0733762CA7C1D0D21AFD /* PBXTargetDependency */,
+			);
+			name = "Pods-CGXPageListView-OC";
+			productName = "Pods-CGXPageListView-OC";
+			productReference = 302EE4BBCF51B81455FECEA6F2FB4890 /* libPods-CGXPageListView-OC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B865D344C7230B5143B3A66F4A0B0386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E4529D2F94610A67DE3B02737D41E3 /* CGXPageListView-OC */,
+				8BBD0B8536294D9A39F3278896113048 /* Pods-CGXPageListView-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4988D375FB46A12EB933D0629BAA3283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04088D183474424A73DD2D5CAE1AC829 /* Pods-CGXPageListView-OC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A028AB23416ADCD2043AF87BB942B263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1701F8FD332123513F2E545CB302E7DE /* CGXPageListView-OC-dummy.m in Sources */,
+				44CF101B3238C7250F326150515F46FE /* CGXPagerListContainerView.m in Sources */,
+				09C2C2FEE32B856CA0913639AF740E9C /* CGXPagerListMainTableView.m in Sources */,
+				167829A5CFBE25D168828B7A8A754CD2 /* CGXPagerListRefreshView.m in Sources */,
+				4EA25B20818CFDC8C8AD646223D72CAE /* CGXPagerListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC67A38F0DB0733762CA7C1D0D21AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CGXPageListView-OC";
+			target = 19E4529D2F94610A67DE3B02737D41E3 /* CGXPageListView-OC */;
+			targetProxy = 618499DBB76B91495BDE94F4FF451D54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		139AA89469C38AAF3D4E145E52828919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6718203D445CB7F293E27D76EC0D420A /* CGXPageListView-OC.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXPageListView-OC/CGXPageListView-OC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXPageListView_OC;
+				PRODUCT_NAME = "CGXPageListView-OC";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24278A089639D9AA119C47800E8E0BE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6AB467B347AB2EA369A4240AE363FF /* CGXPageListView-OC.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXPageListView-OC/CGXPageListView-OC-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXPageListView_OC;
+				PRODUCT_NAME = "CGXPageListView-OC";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54712224221060F53F2DAFB029E9943E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5395E1094F0DBEC7D86013E08E300933 /* Pods-CGXPageListView-OC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55C36DC83830A17A06A9C47211166604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB058715681E716CF6786325B1971CC /* Pods-CGXPageListView-OC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0C63A55A3ABB3FB72CB213240A9E42 /* Build configuration list for PBXNativeTarget "Pods-CGXPageListView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54712224221060F53F2DAFB029E9943E /* Debug */,
+				55C36DC83830A17A06A9C47211166604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9104EF6AA2BFF61AFAB393B5809AE699 /* Build configuration list for PBXNativeTarget "CGXPageListView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139AA89469C38AAF3D4E145E52828919 /* Debug */,
+				24278A089639D9AA119C47800E8E0BE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

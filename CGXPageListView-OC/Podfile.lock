@@ -1,0 +1,16 @@
+PODS:
+  - CGXPageListView-OC (0.0.2)
+
+DEPENDENCIES:
+  - CGXPageListView-OC (from `../`)
+
+EXTERNAL SOURCES:
+  CGXPageListView-OC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGXPageListView-OC: 362d40872e36de6200da0d1f5071faa55755814d
+
+PODFILE CHECKSUM: 6af834dd80814ec245d1ce709e7b994ca5eed57c
+
+COCOAPODS: 1.9.3
